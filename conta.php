@@ -9,7 +9,7 @@ class Conta //Criando Classe Conta
 
     public function sacar(float $valorSacar) //Método da classe conta
     {
-            if($valorSacar >$this-> $saldo) //Usando referencia
+            if($valorSacar >$this-> $saldo) //Usando referencia ao objeto que "chamou" o método
             {
                 echo "Saldo indisponível";
             }    
