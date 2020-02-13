@@ -20,5 +20,19 @@ class Conta //Criando Classe Conta
             }
     }
 
+
+    public function depositar(float $valorDepositar) 
+    {
+        if($valorDepositar < 0)
+        {
+            echo "Valor precisa ser positivo";
+        }
+
+        else 
+        {
+            $this->saldo+=$valorDepositar; 
+        }
+    }
+
 }
 
