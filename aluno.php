@@ -43,12 +43,9 @@ class Aluno {  //Criando nova classe
 
 
 $diego = new aluno;
-$diego->nome = "Diego Campos";
-$diego->turma = 3001;
-$diego->idade = 19;
+$diego->setNome("Diego");
 
-//Chamando método da classe aluno
-$diego->fazerProva();
+echo "O aluno {$diego->getNome()} é muito estudioso";
 
 
 
