@@ -24,7 +24,7 @@ class Aluno {  //Criando nova classe
         return $this->cpf = $cpf;
     }
 
-    public function setCpf() //Setando o novo cpf que foi passado como parâmetro
+    public function setCpf($cpf) //Setando o novo cpf que foi passado como parâmetro
     {
         $this->cpf = $cpf;
     }
@@ -34,7 +34,7 @@ class Aluno {  //Criando nova classe
         return $this->mediaAnual;
     }
 
-    public function setMediaAnual() //Setando a nova média anual que foi passado como parâmetro
+    public function setMediaAnual($media) //Setando a nova média anual que foi passado como parâmetro
     {
         $this->mediaAnual = $media;
     }
